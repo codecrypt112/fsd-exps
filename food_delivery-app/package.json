@@ -1,0 +1,20 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "Full-stack food delivery application",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm install && npm run install-server && npm run install-client"
+  },
+  "keywords": ["food", "delivery", "react", "nodejs", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

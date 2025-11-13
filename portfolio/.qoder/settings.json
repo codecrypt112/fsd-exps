@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "ask": [
+      "Read(!/home/killermachine/Desktop/Proj/fsd/portfolio/**)",
+      "Edit(!/home/killermachine/Desktop/Proj/fsd/portfolio/**)"
+    ],
+    "allow": [
+      "Read(/home/killermachine/Desktop/Proj/fsd/portfolio/**)",
+      "Edit(/home/killermachine/Desktop/Proj/fsd/portfolio/**)"
+    ]
+  },
+  "memoryImport": {},
+  "monitoring": {}
+}

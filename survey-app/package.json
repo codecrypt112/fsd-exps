@@ -1,0 +1,29 @@
+{
+  "name": "survey-app",
+  "version": "1.0.0",
+  "description": "Online Survey Application",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node backend/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "survey",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "nodemon": "^3.1.10",
+    "concurrently": "^9.1.2"
+  }
+}

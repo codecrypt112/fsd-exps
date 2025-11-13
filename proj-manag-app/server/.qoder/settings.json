@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "ask": [
+      "Read(!/home/killermachine/Desktop/Proj/fsd/proj-manag-app/server/**)",
+      "Edit(!/home/killermachine/Desktop/Proj/fsd/proj-manag-app/server/**)"
+    ],
+    "allow": [
+      "Read(/home/killermachine/Desktop/Proj/fsd/proj-manag-app/server/**)",
+      "Edit(/home/killermachine/Desktop/Proj/fsd/proj-manag-app/server/**)"
+    ]
+  },
+  "memoryImport": {},
+  "monitoring": {}
+}

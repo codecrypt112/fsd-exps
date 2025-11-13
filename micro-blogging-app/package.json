@@ -1,0 +1,23 @@
+{
+  "name": "micro-blogging-app",
+  "version": "1.0.0",
+  "description": "A modern micro-blogging application with React, Node.js, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "mongodb",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}

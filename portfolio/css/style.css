@@ -1,0 +1,51 @@
+body {
+    @apply bg-white;
+}
+
+.neo-card {
+    @apply rounded-3xl bg-white p-8;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.neo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.1), -12px -12px 24px rgba(0, 0, 0, 0.05);
+}
+
+.neo-skill {
+    @apply rounded-full bg-white px-6 py-3 font-medium text-indigo-600;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.neo-button {
+    @apply inline-block font-bold py-3 px-8 rounded-full transition duration-300;
+    @apply bg-indigo-600 text-white;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -6px -6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.neo-button:hover {
+    @apply bg-indigo-700;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.neo-button-contact {
+    @apply inline-block font-bold py-3 px-8 rounded-full transition duration-300;
+    @apply bg-white text-indigo-600;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -6px -6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.neo-button-contact:hover {
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.social-icon {
+    @apply text-gray-600 w-12 h-12 flex items-center justify-center rounded-full bg-white;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1), -6px -6px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    @apply text-indigo-400;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1), inset -4px -4px 8px rgba(0, 0, 0, 0.05);
+}
